@@ -1,33 +1,33 @@
 
---[[
-    VoidLib
-    Icons Library
-    Version 1.0
-]]
+-- VoidLib Icons
+-- Lucide icon collection
 
 local Icons = {}
 
 Icons.List = {
-    Home = "rbxassetid://0",
-    Settings = "rbxassetid://0",
-    User = "rbxassetid://0",
-    Search = "rbxassetid://0",
+    Home = "rbxassetid://7733960981",
+    Settings = "rbxassetid://7734053495",
+    Search = "rbxassetid://7734052925",
+    Image = "rbxassetid://7733964126",
 
-    Visuals = "rbxassetid://0",
-    Misc = "rbxassetid://0",
+    Alert = "rbxassetid://7733658504",
+    Play = "rbxassetid://7734037784",
+    Pause = "rbxassetid://7734021827",
+    Close = "rbxassetid://7733765224",
 
-    Play = "rbxassetid://0",
-    Pause = "rbxassetid://0",
-    Close = "rbxassetid://0",
+    Volume = "rbxassetid://7743877250",
+    Music = "rbxassetid://7734020554",
+    Bell = "rbxassetid://7733675107",
 
-    Check = "rbxassetid://0",
-    Menu = "rbxassetid://0",
-    Info = "rbxassetid://0",
-    Warning = "rbxassetid://0",
+    Eye = "rbxassetid://7733774602",
+    Sliders = "rbxassetid://7734058803",
+    Mouse = "rbxassetid://7743870392",
+    User = "rbxassetid://7743875629",
 
-    Volume = "rbxassetid://0",
-    Music = "rbxassetid://0",
-    Bell = "rbxassetid://0"
+    Star = "rbxassetid://7734068321",
+    Download = "rbxassetid://7733770755",
+    Save = "rbxassetid://7734052335",
+    Info = "rbxassetid://7733956210"
 }
 
 function Icons:Get(name)
@@ -39,3 +39,4 @@ function Icons:Add(name, imageId)
 end
 
 return Icons
+
